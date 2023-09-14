@@ -1,9 +1,12 @@
 using System;
 
-class Program
+namespace Prep1
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Prep1 World!");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Prep1 World!");
+        }
     }
 }
