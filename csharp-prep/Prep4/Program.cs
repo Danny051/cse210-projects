@@ -26,6 +26,5 @@ class Program
             sum += number;
         }
         Console.WriteLine(sum);
-        
     }
 }
