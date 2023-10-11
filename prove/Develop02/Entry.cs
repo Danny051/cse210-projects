@@ -19,6 +19,7 @@ public class Entry
         // string dateText = theCurrentTime.ToShortDateString();
         return _dateTime;
     }
+    
     public string DisplayEntry()
     {
         // Console.WriteLine($"Date: {_dateTime} - Prompt: {_prompts}");

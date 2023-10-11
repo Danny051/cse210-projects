@@ -13,11 +13,11 @@ class Program
         PromptGenerator promptGenerator = new PromptGenerator();
         Journal journal = new Journal();
 
-        int userOption = 0;
+        int userOption = 5;
         while (userOption != 5)    
         {
             // Console.WriteLine("Welcome to the Journal Program!");
-            Console.WriteLine("\nPlease select one of the following choices:");
+            Console.WriteLine("\nPlease select one of the following choices(1-5):");
             Console.WriteLine("1. Write");
             Console.WriteLine("2. Display");
             Console.WriteLine("3. Save");
@@ -50,11 +50,7 @@ class Program
             }
             else if (userOption == 5)
             {
-                Console.Write($"{userName} See you next time!!");
-            }
-            else
-            {
-                Console.Write($"{userName}, PLease input a number in the list");
+                Console.Write($"See you next time {userName}");
             }
         }
     }
