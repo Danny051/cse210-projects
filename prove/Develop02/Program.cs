@@ -55,3 +55,5 @@ class Program
         }
     }
 }
+// I exceeded the requirements for this assignment by saving some information in the journal entry.
+// And also storing the user's name in the program and make it appear in some prompts.
