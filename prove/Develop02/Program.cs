@@ -13,7 +13,7 @@ class Program
         PromptGenerator promptGenerator = new PromptGenerator();
         Journal journal = new Journal();
 
-        int userOption = 5;
+        int userOption = -1;
         while (userOption != 5)    
         {
             // Console.WriteLine("Welcome to the Journal Program!");
@@ -56,4 +56,4 @@ class Program
     }
 }
 // I exceeded the requirements for this assignment by saving some information in the journal entry.
-// And also storing the user's name in the program and make it appear in some prompts.
+// And also storing the user's name to make the program user friendly and the name may also appear in some prompts.
