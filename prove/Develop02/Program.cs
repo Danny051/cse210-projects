@@ -50,7 +50,7 @@ class Program
             }
             else if (userOption == 5)
             {
-                Console.Write($"See you next time {userName}");
+            Console.Write($"See you next time {userName}");
             }
         }
     }
