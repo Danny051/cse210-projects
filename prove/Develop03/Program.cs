@@ -27,4 +27,7 @@ class Program
             Console.WriteLine("\nPlease press 'enter' to continue or type 'quit' to finish:");
         }
     }
+
 }
+
+// I exceeded the requirement my displaying a scripture with first epistle and second epistle and gave it a variable name position;
