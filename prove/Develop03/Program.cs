@@ -30,4 +30,4 @@ class Program
 
 }
 
-// I exceeded the requirement my displaying a scripture with first epistle and second epistle and gave it a variable name position;
+// The program exceeds the core requirements by displaying a scripture with first epistle and second epistle and gave it a member variable position;
