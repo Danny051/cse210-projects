@@ -54,4 +54,4 @@ class Program
     }
 }
 
-// I showed creativity and exceeded core requirements by adding pause/animations to the quit response
+// I showed creativity and exceeded core requirements by adding pause/animations to the quit response when the user's choice is 4
