@@ -13,18 +13,21 @@ class Program
         Console.WriteLine("Marketing Messages:\n");
 
         Console.WriteLine("Lecture Event:");
+        Console.WriteLine();
         Console.WriteLine(lectureEvent.GetStandardDetails());
         Console.WriteLine(lectureEvent.GetFullDetails());
         Console.WriteLine(lectureEvent.GetShortDescription());
         Console.WriteLine();
 
         Console.WriteLine("Reception Event:");
+        Console.WriteLine();
         Console.WriteLine(receptionEvent.GetStandardDetails());
         Console.WriteLine(receptionEvent.GetFullDetails());
         Console.WriteLine(receptionEvent.GetShortDescription());
         Console.WriteLine();
 
         Console.WriteLine("Outdoor Gathering Event:");
+        Console.WriteLine();
         Console.WriteLine(outdoorEvent.GetStandardDetails());
         Console.WriteLine(outdoorEvent.GetFullDetails());
         Console.WriteLine(outdoorEvent.GetShortDescription());

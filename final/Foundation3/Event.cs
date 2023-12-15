@@ -17,16 +17,16 @@ public class Event
 
     public virtual string GetStandardDetails()
     {
-          return $"Title: {_title}\nDescription: {_description}\nDate: {_date.ToShortDateString()}\nTime: {_time.ToShortTimeString()}\nAddress: {_address.ToString()}";
+          return $"Standard Details-\nTitle: {_title}\nDescription: {_description}\nDate: {_date.ToShortDateString()}\nTime: {_time.ToShortTimeString()}\nAddress: {_address.ToString()}";
     }
 
     public virtual string  GetFullDetails()
     {
-        return GetStandardDetails();
+        return $"Full Details-\nTitle: {_title}\nDescription: {_description}\nDate: {_date.ToShortDateString()}\nTime: {_time.ToShortTimeString()}\nAddress: {_address.ToString()}";
     }
 
     public virtual string GetShortDescription()
     {
-        return $"Type: Generic Event\nTitle: {_title}\nDate: {_date.ToShortDateString()}";
+        return $"Short Descrition-\nType: Generic Event\nTitle: {_title}\nDate: {_date.ToShortDateString()}";
     }
 }
